@@ -16,7 +16,7 @@ $msgs = array(
 );
 
 $username = "ShellisPrepared";
-$needle = "arcticready.com/social/mercy";
+$needle = "whatever text to search for";
 $search = $twitter->get('search', array('q' => $needle, 'rpp' => rand(1, 1)));
 
 $isFirst = true;
